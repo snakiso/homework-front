@@ -1,7 +1,8 @@
 import { UserType } from './HW2';
+import {FriendsType} from "./UserList2";
 
 type CurrentUserPropsType = {
-  user: any // пропиши типизацию
+  user: FriendsType
 };
 
 export const CurrentUser = (props: CurrentUserPropsType) => {
